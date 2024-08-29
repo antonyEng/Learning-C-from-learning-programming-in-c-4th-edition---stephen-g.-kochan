@@ -177,7 +177,7 @@ Make certain that the program displays the day of the week in English
 struct weak_def
 {
 int index;
-char name[3];
+char name[9];
 };
 
 
@@ -232,7 +232,7 @@ int main()
 {
     struct date d1 ;
     const struct weak_def week[7] =
-{{0,{'S','u','n'}},{1,{'M','o','n'}},{2,{ 'T','u','e'}},{ 3,{'W','e','d'}},{ 4,{'T','h','u'}},{5,{'F','r','i'}},{ 6,{'S','a','t'}} };
+{{0,{"Sun"}},{1,{"Mon"}},{2,{ "Tues"}},{ 3,{"Wednes"}},{ 4,{"Thurs"}},{5,{"Fri"}},{ 6,{"Satur"}} };
 
 
 printf("Enter the date in form day : month : year \n") ;
@@ -244,7 +244,7 @@ for (int i = 0 ; i < 7 ; ++i)
 {
   if (week[i].index==x)
     {
-           printf("The Day is %c%c%cday\n", week[i].name[0], week[i].name[1],week[i].name[2] ) ;
+           printf("The Day is %sday\n", week[i].name ) ;
            return 1;
     }
 }
@@ -253,6 +253,7 @@ for (int i = 0 ; i < 7 ; ++i)
 
     return 0;
 }
+
 
 ////////////////////////////////////////////////////
 /* ch 8  Ex 5 */
