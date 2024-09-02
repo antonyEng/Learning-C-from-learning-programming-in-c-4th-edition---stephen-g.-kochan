@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1725226092 source:u:\semester-3-april-24-september-24\c_c++\work_on_book_programming in c (4th edition)  - stephen g. kochan(1)\ch_\working_several_files\several_files\library.c
+
+1725225955 source:u:\semester-3-april-24-september-24\c_c++\work_on_book_programming in c (4th edition)  - stephen g. kochan(1)\ch_\working_several_files\several_files\main.c
+	<stdio.h>
+	<stdlib.h>
+	"library.h"
+
+1725226027 u:\semester-3-april-24-september-24\c_c++\work_on_book_programming in c (4th edition)  - stephen g. kochan(1)\ch_\working_several_files\several_files\library.h
+
