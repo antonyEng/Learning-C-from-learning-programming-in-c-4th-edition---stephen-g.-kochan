@@ -542,31 +542,6 @@ order. Then modify the sort() algorithm to correctly sort the array into
 the indicated order.*/
 
 ////////////////////////////////////////////////////
-////////////////////////////////////////////////////
-/* ch 7  Ex 14 */
-
-/*14. Rewrite the functions developed in the last four exercises to use global
-variables instead of arguments. For example, the preceding exercise
-should now sort a globally defined array*/
-
-
-////////////////////////////////////////////////////
-////////////////////////////////////////////////////
-/* ch 7  Ex 15 */
-
-/*15. Modify Program 7.14 so that the user is asked again to type in the value
-of the base if an invalid base is entered. The modified program should
-continue to ask for the value of the base until a valid response is given*/
-
-
-////////////////////////////////////////////////////
-////////////////////////////////////////////////////
-/* ch 7  Ex 16 */
-
-/*15. Modify Program 7.14 so that the user is asked again to type in the value
-200of the base if an invalid base is entered. The modified program should
-continue to ask for the value of the base until a valid response is given*/
-
 
 
 
